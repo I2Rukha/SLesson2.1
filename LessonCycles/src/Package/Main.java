@@ -101,5 +101,51 @@ public class Main {
 		for (int i = 0; i <= 10; i = i + 2) {
 			System.out.println(i);
 		}
+		
+		System.out.println();
+		
+		/*
+		 * Так же ИИ "DeapSeek" предложил мне дополниетльно решить
+		 * некоторые задачи
+		 * 
+		 * Первое задание звучит так:
+		 * Вывести только нечетные числа от 1 до 10
+		 */
+		
+		// Моё решение
+		for (int i = 1; i <= 10; i = i + 2) {
+			System.out.println(i);
+		}
+		
+		System.out.println();
+		
+		/*
+		 * Второе задание:
+		 * Вывести таблицу умножения на 5
+		 * (например, 5 * 1 = 5, 5 * 2 = 10 и так до 10)
+		 * 
+		 */
+		
+		// Моё решение
+		int number = 5;
+		int sum;
+		for (int i = 1; i <= 10; i++) {
+			sum = number * i;
+			System.out.println(sum);
+		}
+		
+		System.out.println();
+		
+		/*
+		 * Третье задание:
+		 * Найти сумму чисел от 1 до 5
+		 */
+		
+		// Моё решение
+		int summ = 0;
+		for (int i = 1; i <= 5; i++) {
+			summ = summ + i;
+			System.out.println(summ);
+		}
 	}
 }
